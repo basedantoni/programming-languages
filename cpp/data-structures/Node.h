@@ -9,7 +9,7 @@ public:
 
 	T getValue() const;
 	void setValue(T v);
-	Node<T>* getNext() const;
+	Node<T>* getNext() const
 	void setNext(Node<T>* node);
 
 private:
